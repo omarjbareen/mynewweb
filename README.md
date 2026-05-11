@@ -28,4 +28,4 @@ A smart guided wood and furniture material selection platform for customers desi
 - React
 - Vite
 - React Router
-- JavaScript (ES6+)
+- JavaScript (ES6+)# mynewweb
