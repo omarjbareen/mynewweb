@@ -1,0 +1,15 @@
+.project-card {
+  min-height: 320px;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 28px 70px rgba(46, 42, 36, 0.2);
+  transform: translateY(-4px);
+}
+
+@media (max-width: 980px) {
+  .project-card {
+    min-height: 260px;
+  }
+}

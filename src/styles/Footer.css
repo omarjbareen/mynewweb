@@ -1,0 +1,29 @@
+.footer {
+  align-items: center;
+  background: #1f2522;
+  color: #f8f0e4;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 32px max(20px, calc((100vw - 1180px) / 2));
+}
+
+.footer strong {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.footer p {
+  color: rgba(248, 240, 228, 0.72);
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
